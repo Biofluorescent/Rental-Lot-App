@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:text="First Name"/>
+
+    <TextView
+        android:id="@+id/tvLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvFName"
+        android:layout_toRightOf="@id/tvFName"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:text="Last Name"/>
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvLName"
+        android:layout_toRightOf="@id/tvLName"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:text="Age"/>
+
+    <TextView
+        android:id="@+id/CarRental"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFName"
+        android:paddingLeft="10dp"
+        android:textSize="11dp"
+        android:text="Car Rental ID:"
+        />
+
+    <TextView
+        android:id="@+id/tvCarRentalID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CarRental"
+        android:paddingLeft="10dp"
+        android:textSize="11dp"
+        android:text="Car Rental ID"
+        />
+
+    <TextView
+        android:id="@+id/PatronID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCarRentalID"
+        android:paddingLeft="10dp"
+        android:textSize="11dp"
+        android:text="Patron ID:"
+        />
+
+    <TextView
+        android:id="@+id/tvPatronID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PatronID"
+        android:paddingLeft="10dp"
+        android:textSize="11dp"
+        android:text="Patron ID"
+        />
+
+</RelativeLayout>
