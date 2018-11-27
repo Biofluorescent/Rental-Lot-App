@@ -2,7 +2,6 @@
 # 496 Winter 2018
 # References:
 #
-#   ADAPTED MAJORITY OF CODE FROM MY PREVIOUS REST ASSIGNMENT
 #
 #   Class materials, Piazza
 #   https://stackoverflow.com/questions/16280496/patch-method-handler-on-google-appengine-webapp2
