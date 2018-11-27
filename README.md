@@ -5,7 +5,7 @@ Demo of project: https://media.oregonstate.edu/media/t/0_9ispjf73
 
 
 
-**Base REST API URL: https://mobile-final-197403.appspot.com/  
+**Base REST API URL:** https://mobile-final-197403.appspot.com/  
 **Mainpage URL:** / 
 - Purpose: Display the URL options. 
  
